@@ -1,0 +1,46 @@
+{
+  "participants": [
+    {
+      "participant_id": "SYN-P-0001",
+      "trial_id": "TRIAL-SYN-2026-001",
+      "site_id": "SITE-03",
+      "arm": "drug_a",
+      "age": 56,
+      "sex_at_birth": "F",
+      "status": "active",
+      "synthetic_flag": true
+    }
+  ],
+  "visits": [
+    {
+      "visit_id": "SYN-P-0001-V03",
+      "participant_id": "SYN-P-0001",
+      "site_id": "SITE-03",
+      "visit_no": 3,
+      "symptom_score": 4,
+      "protocol_deviation": false,
+      "attachments": [
+        {
+          "attachment_id": "ATT-SYN-P-0001-V03-01",
+          "modality": "CT",
+          "file_type": "image/png",
+          "storage_uri": "placeholder://imaging/site-03/syn-p-0001/syn-p-0001-v03/ct_01.png",
+          "description": "Synthetic CT image placeholder",
+          "captured_at": "2025-05-20T03:00:00Z",
+          "synthetic_flag": true
+        }
+      ],
+      "synthetic_flag": true
+    }
+  ],
+  "clinical_notes": [
+    {
+      "note_id": "NOTE-SYN-P-0001-V03-01",
+      "participant_id": "SYN-P-0001",
+      "visit_id": "SYN-P-0001-V03",
+      "note_text": "Synthetic note: participant reports mild fatigue and intermittent nausea...",
+      "tags": ["fatigue", "nausea"],
+      "synthetic_flag": true
+    }
+  ]
+}
